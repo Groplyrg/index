@@ -16,7 +16,8 @@ body {
     float: left;
 }
 div.div1 {
-    display: inline;
+    text-decoration: none;
+    display: inline-block;
     font-size: 25px;
     font-family: 'poppins';
     width: auto;
@@ -25,10 +26,53 @@ div.div1 {
     font-style: normal;
     line-height: 29px;
 }
-div.div2{
-    position: absolute;
+div.divtext1 {
+    display: inline-block;
     font-family: 'poppins';
     font-size: 400%;
-    margin-left: 10%;
     margin-top: 5%;
+    margin-left: 20%;
+    margin-right: auto;
+}
+div.divimg1 img {
+    width: 80%;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+div.divtext2 {
+    display: inline-block;
+    font-family: 'poppins';
+    font-size: 400%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: auto;
+}
+div.divblock1 {
+    margin-left: 10%;
+    display: block;
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+#divblock1 {
+    display: block;
+    font-style: 'poppins';
+    font-size: 150%;
+    margin: 5%;
+}
+div.divimg2 {
+    display: block;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+div.divtext3 {
+    font-style: 'poppins';
+    font-size: 20px;
+    position: absolute;
 }
